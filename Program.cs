@@ -27,6 +27,7 @@ namespace cálculo_do_criculo
             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor de Pi: " + calc.Pi.ToString("F2", CultureInfo.InvariantCulture));
 
+            Console.ReadKey();
         }
     }
 }
