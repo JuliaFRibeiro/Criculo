@@ -8,10 +8,11 @@ namespace cálculo_do_criculo
 {
     class Calculadora
     {
-        // declrando as variaveis
+        // declrando as variaveis 
         public double Pi = 3.14;
         public double Circuferencia(double r)
         {
+            //formula
             return 2.0 * Pi * r;
         }
 
