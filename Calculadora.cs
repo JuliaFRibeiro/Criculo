@@ -12,11 +12,13 @@ namespace cálculo_do_criculo
         public double Pi = 3.14;
         public double Circuferencia(double r)
         {
+            //fórmula
             return 2.0 * Pi * r;
         }
 
         public double Volume(double r)
         {
+            //fórmula
             return 4.0 / 3.0 * Pi * r * r * r;
         }
     }

@@ -14,7 +14,7 @@ namespace cálculo_do_criculo
             // declrando a classe
             Calculadora calc = new Calculadora();
 
-            // interaçao
+            // interaçao com usuario
             Console.WriteLine("Entre com o valor do raio: ");
             // montando o calculo
             double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
